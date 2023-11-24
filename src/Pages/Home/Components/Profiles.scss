@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.profiles {
+  // margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  .heading {
+    text-align: left;
+    width: 1674px;
+    font-size: 32px;
+    h2 {
+      color: #2a2a2a;
+    }
+  }
+  .cards {
+    width: 1674px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    .card {
+  
+      width: 400px;
+      border: 1px solid #cdcdcd;
+      border-radius: 10px;
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 30px;
+      padding: 25px;
+      .box1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 36px;
+        .usericon {
+          width: 100px;
+          img {
+            width: 100%;
+          }
+        }
+        .content {
+          display: flex;
+          align-items: flex-start;
+          flex-direction: column;
+          gap: 13px;
+          .identity {
+            h6 {
+              font-size: 24px;
+            }
+            p {
+              font: 18px;
+            }
+        
+          }
+          .verified {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 4px;
+            img {
+              width: 28px;
+            }
+          }
+        }
+      }
+      .box3 {
+        a {
+          u {
+            font-weight: 500;
+            color: #2a2a2a;
+          }
+        }
+      }
+    }
+  }
+  .arrows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    div {
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      border: 1px solid #000000;
+    }
+  }
+}

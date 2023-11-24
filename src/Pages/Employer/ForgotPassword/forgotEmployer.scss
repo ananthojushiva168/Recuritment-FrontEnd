@@ -1,0 +1,28 @@
+.forgot-alignment{
+    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+
+    .forgot-content{
+        margin-top: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15vw;
+        padding: 5%;
+
+        @media(max-width:900px){
+            gap: 3vw;
+        }
+
+        img{
+            width: 35%;
+            @media(max-width:900px){
+                width: 50%;
+            }
+        }
+    }
+
+}

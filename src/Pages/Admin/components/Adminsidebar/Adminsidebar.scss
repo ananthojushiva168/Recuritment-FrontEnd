@@ -1,0 +1,125 @@
+.sidebaradmin {
+   width: 262px;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   // justify-content: center;
+   align-items: center;
+   // gap: 150px;
+   padding: 100px 0px 60px 0px;
+   background-color: #FCFCFC;
+   border: 1px #F5F5F5;
+
+}
+
+
+
+.adminlistdata {
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 50px;
+   align-items: center;
+
+}
+
+
+.adminprofilecontainer {
+   width: 250px;
+   height: 90px;
+
+   border-radius: 20px;
+   display: flex;
+   gap: 23px;
+   // justify-content: center;
+   padding-left: 10px;
+   align-items: center;
+   background-color: #F8F8F8;
+}
+
+.imagecontainer {
+   width: 70px;
+   height: 60px;
+   background: transparent url('../../../../Assets/IMG20220826090623.png') 0% 0% no-repeat padding-box;
+
+}
+
+.adminheading h3 {
+   font-size: 18px;
+   font-family: 'Poppins', sans-serif;
+
+
+}
+
+.adminheading p {
+   font-size: 14px;
+   font-family: 'Poppins', sans-serif;
+}
+
+.adminlistdata {
+   width: 100%;
+   display: flex;
+   gap: 20px;
+
+
+
+}
+
+.adminlistimgandlink {
+   width: 250px;
+   height: 60px;
+   display: flex;
+   // background-color: red;
+   align-items: center;
+   gap: 10px;
+   padding: 15px 20px;
+   font-family: 'Poppins', sans-serif;
+
+   background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 5px 15px #26334D08;
+border-radius: 10px;
+opacity: 1;
+
+   
+}
+
+.adminlistimgandlink img {
+   width: 20px;
+   height: 20px;
+}
+
+.adminlistimgandlink a {
+   font: normal normal medium 18px/25px Poppins;
+   color: #7D8FB3;
+   font-family: sans-serif;
+   opacity: 1;
+}
+
+// .adminlistimgandlink:hover {
+//    background-color: rgb(229, 224, 224);
+// }
+
+
+.logout {
+   width: 250px;
+   height: 60px;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   gap: 20px;
+   padding-left: 15px;
+
+   a {
+      font: normal normal medium 18px/27px Poppins;
+      letter-spacing: 0px;
+      color: #7D8FB3;
+      opacity: 1;
+   }
+
+}
+
+
+.logout img {
+   width: 20px;
+   height: 20px;
+}

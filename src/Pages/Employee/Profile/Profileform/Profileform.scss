@@ -1,0 +1,508 @@
+.middleform {
+     // width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 16rem;
+
+    .about-me-section {
+        width: 100%;
+        height: 6.875rem;   
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #465FA7;
+        border-radius: 5px;
+        opacity: 0.5;
+        font-size: 15px;
+    }
+
+    .ctc-container {
+        position: relative;
+        top: -1rem;
+
+        h2 {
+            text-align: left;
+            font-size: 2.2rem;
+            letter-spacing: 0.5px;
+            color: #2A2A2A;
+            opacity: 0.8;
+            margin-left: 4px;
+            font-weight: 550;
+        }
+    }
+
+    .ctc-container input {
+        width: 100%;
+        height: 4rem;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #465FA7;
+        border-radius: 5px;
+        opacity: 0.6;
+        font-size: 2rem;
+        padding: 14px 10px 10px 10px;
+    }
+
+    .ctc-container textarea {
+        width: 100%;
+        height: 9rem;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #465FA7;
+        border-radius: 5px;
+        opacity: 0.8;
+        position: relative;
+        top: 0.6rem;
+        font-size: 30px;
+        padding: 12px 20px 30px 16px;
+    }
+
+    .select-container {
+        position: relative;
+        top: 5rem;
+
+        h2 {
+            opacity: 0.7;
+            font-size: 31px;
+            font-weight: 600;
+            margin: -50px 0px 50px 0px;
+
+        }
+        
+        select {
+            width: 100%;
+            height:6rem;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            border: 1px solid #465FA7;
+            border-radius: 4px;
+            font: normal normal normal 30px/34px Poppins;
+            letter-spacing: 0px;
+            color: #484848;
+            opacity: 0.9;
+            padding: 20px;
+            margin: -38px 0px 71px 0px;
+            ;    
+        }
+    }
+
+    .edit-button-container {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        // font-size: 2.5rem;
+    }
+
+    .edit-button-container button {
+        width: 10rem;
+        height: 5rem;
+        background-color: white;
+        border: 1px solid #16378D;
+        border-radius: 4px;
+        font-size: 30px;
+        letter-spacing: 0px;
+        color: #16378D;
+        opacity: 1;
+    }
+    
+    .edit-button-container button:hover{
+        background-color: #16378D;
+        color: white;
+    }
+
+
+    .save-button-container {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        position: relative;
+        top: 7.9rem;
+    }
+
+    .save-button-container button {
+        width: 295px;
+        height: 85px;
+        background-color: white;
+        border: 1px solid #16378D;
+        border-radius: 5px;
+        font-size: 1.8rem;
+        color: #16378D;
+        opacity: 1;
+        letter-spacing: 3px;
+        font-weight: 700;
+        margin-top: -75px;
+    }
+}
+
+.uploadcv-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: 2rem;
+
+    .uploadcv-button {
+        width: 290px;
+        height: 75px;
+        text-align: center;
+        font: normal normal normal 29px/33px Poppins;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+        background: #16378D 0% 0% no-repeat padding-box;
+        border-radius: 5px;
+        opacity: 1;
+        border: #FFFFFF;
+        letter-spacing: 3px;
+        margin: -30px 0px 0px 0px;
+    }
+}
+
+.uploadfile-container {   
+    position: absolute;
+    top: 0;
+    left: 0;
+    // top: 25px;
+    // left: 85px;
+    opacity: 0;
+}
+
+.uploadfile-container input {
+    width: 239px;
+    height: 63px;
+}
+
+.uploadcv-container-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.container-ctc {
+    margin-top: 60px;
+    // position: relative;
+    // top: 4rem;
+    // font-size: 2rem;
+
+    h2 {
+        opacity: 0.7;
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    input {
+        width: 100%;
+        height: 6rem;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #465FA7;
+        border-radius: 5px;
+        font-size: 2rem;
+        margin-top: 30px;
+        color: #332b2b;
+        opacity: 0.9;
+        padding: 10px 0px 13px 14px;
+    }
+
+    input::placeholder {
+        font-size: 30px;
+    }
+}
+
+
+.url-data {
+    font-size: 5rem;
+    font-weight: 550;
+    margin: -40px 0px 0px 27px;
+
+}
+
+
+@media (max-width: 1450px) {
+    .ctc-container-textarea {
+        width: 98% !important;
+        height: 8rem !important;
+        font-size: 25px !important;
+        margin: 12px 0px -23px 0px;
+    }
+
+    .edit-button-container button {
+        margin-right: 22px;
+    }
+
+    .middleform .ctc-container h2 {
+        margin-left: 14px;
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .container-ctc h2 {
+        margin-left: 15px;
+        font-size: 31px;
+        font-weight: 600;
+    }
+
+    .middleform .select-container h2 {
+        margin-top: 25px;
+        opacity: 0.7;
+        font-size: 31px;
+        font-weight: 600;
+        margin: -63px 0px 57px 0px;
+    }
+
+    .url-data {
+        font-size: 5rem;
+        font-weight: 550;
+        margin: -40px 0px 0px 27px;
+
+    }
+
+}
+
+@media(max-width:1205px) {
+    .ctc-container h2 {
+        margin-left: 16px !important;
+        font-size: 28px !important;
+        font-weight: 600;
+    }
+
+    .ctc-container textarea {
+        width: 58rem !important;
+        font-size: 28px !important;
+        margin-left: 10px;
+    }
+
+    .middleform .select-container h2 {
+        margin-top: -55px;
+        opacity: 0.7;
+        font-size: 29px;
+        font-weight: 600;
+    }
+
+    .middleform .edit-button-container button {
+        font-size: 25px;
+    }
+
+    .input-field input::placeholder {
+        font-size: 28px;
+    }
+
+    .container-ctc input::placeholder {
+        font-size: 27px;
+    }
+
+    .middleform .select-container select {
+        font-size: 29px;
+        padding: 10px;
+    }
+
+}
+
+@media(max-width:1085px) {
+    .edit-button-container button {
+        margin-right: 12px;
+    }
+
+    .ctc-container h2 {
+        margin-left: 13px !important;
+        font-size: 29px !important;
+        font-weight: 600;
+    }
+
+    .ctc-container textarea {
+        width: 52rem !important;
+        margin-left: 9px;
+    }
+
+    .container-ctc h2 {
+        margin-left: 6px;
+        font-size: 27px;
+        font-weight: 600;
+    }
+
+    .middleform .select-container h2 {
+        margin-top: -60px;
+        opacity: 0.7;
+        font-size: 27px;
+        font-weight: 600;
+    }
+
+    .middleform .edit-button-container button {
+        font-size: 23px;
+    }
+
+    .input-field input::placeholder {
+        font-size: 27px;
+    }
+
+    .container-ctc input::placeholder {
+        font-size: 25px;
+    }
+
+    .middleform .select-container select {
+        font-size: 27px;
+        padding: 10px;
+    }
+
+    .middleform .save-button-container button {
+        width: 250px;
+        height: 80px;
+        font-size: 1.6rem;
+        font-weight: 600;
+        margin-top: -85px;
+    }
+
+    .uploadcv-container .uploadcv-button {
+        width: 250px;
+        height: 75px;
+        font: normal normal normal 27px/33px Poppins;
+        margin: -30px 0px 0px 0px;
+    }
+}
+
+@media(max-width:1006px) {
+    .edit-button-container button {
+        margin-right: 15px;
+        font-size: 22px !important;
+        width: 110px !important;
+        height: 55px !important;
+
+    }
+
+    .ctc-container h2 {
+        margin-left: 12px !important;
+        font-size: 26px !important;
+    }
+
+    .ctc-container textarea {
+        width: 46rem !important;
+        height: 80px !important;
+        margin-left: 10px;
+        font-size: 20px !important;
+    }
+
+    .uploadcv-container .uploadcv-button {
+        width: 195px;
+        height: 61px;
+        font-size: 18px;
+        margin-left: 0px;
+    }
+
+    .uploadfile-container input {
+        width: 150px;
+        height: 10px;
+        margin-top: 31px;
+    }
+    .middleform .save-button-container button {
+        width: 195px;
+        height: 61px;
+        font-size: 18px;
+    }
+
+    .container-ctc h2 {
+        margin-left: 7px;
+        font-size: 24px !important;
+    }
+
+    .container-ctc input {
+        width: 100%;
+        height: 4.5rem;
+        margin-top: 20px;
+        padding: 18px 0px 10px 8px;
+    }
+
+    .middleform .select-container h2 {
+        margin-top: -78px;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .middleform .select-container select {
+        width: 760px;
+        height: 68px;
+        font-size: 20px;
+    }
+}
+
+@media(max-width:851px) {
+    .edit-button-container button {
+        margin-right: 20px;
+        width: 100px !important;
+        height: 48px !important;
+        font-size: 20px !important;
+    }
+
+    .ctc-container h2 {
+        margin-left: 12px !important;
+        font-size: 23px !important;
+    }
+
+    .ctc-container textarea {
+        width: 43.7rem !important;
+    height: 75px !important;
+    margin-left: 5px;
+    }
+
+    .uploadcv-container .uploadcv-button {
+        width: 150px;
+        height: 61px;
+        font-size: 18px;
+        margin-left: 9px;
+    }
+    .uploadfile-container input {
+        width: 150px;
+        height: 30px;
+        margin-top: 31px;
+    }
+
+    .middleform .save-button-container button {
+        width: 170px;
+        height: 61px;
+        font-size: 17px;
+    }
+
+    .profile-alignment .changepassword-section h2 {
+        font: normal normal bold 25px/30px Poppins;
+    }
+
+    .profile-alignment .button-delete {
+        margin-top: -27px;
+        font-size: 20px;
+    }
+    .middleform .select-container h2 {
+        font-size: 22px;
+        margin-left: 4px;
+        margin-bottom: 44px;
+    }
+    .middleform .select-container select {
+        width: 725px;
+        height: 68px;
+        font-size: 20px;
+        margin-left: 0px;
+    }
+    .container-ctc {
+        margin-top: 60px;
+        h2 {
+            font-size: 24px;
+            margin-left: 8px;
+        }
+
+        input {
+            width: 100%;
+            height: 4.7rem;
+            font-size: 1.5rem;
+            margin-top: 30px;
+            margin-left: 3px;
+        }
+        input::placeholder {
+            font-size: 5px;
+            color: rgb(18, 19, 17);
+        }
+    }
+    .uploadcv-container .uploadcv-button {
+        width: 177px;
+        height: 63px;
+        font: normal normal normal 20px/33px Poppins;
+        margin: -30px 0px 0px -9px;
+    }
+
+}

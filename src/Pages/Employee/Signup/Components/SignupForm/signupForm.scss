@@ -1,0 +1,87 @@
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+  h1 {
+    font-size: 32px;
+    @media (max-width: 1100px) {
+      font-size: 24px;
+    }
+  }
+  p {
+    color: #465fa7;
+    font-size: 20px;
+    @media (max-width: 1100px) {
+      font-size: 16px;
+    }
+  }
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 7px;
+    margin-top: 5px;
+
+    input {
+      border: 2px solid #465fa7;
+      border-radius: 4px;
+      width: 430px;
+      height: 60px;
+      font-size: 20px;
+      padding-left: 1%;
+
+      @media (max-width: 1100px) {
+        width: 280px;
+        height: 40px;
+      }
+    }
+    .form-row {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 1.5rem;
+    }
+    .error {
+      color: red;
+      font-size: 0.8rem;
+      margin-top: 0.3rem;
+    }
+    .raj {
+      width: 430px;
+      height: 60px;
+      background-color: #465fa7;
+      color: #fefefe;
+      font-size: 19px;
+      border-radius: 4px;
+      cursor: pointer;
+
+      @media (max-width: 1100px) {
+        width: 280px;
+        height: 40px;
+      }
+    }
+    .error-msg {
+      color: red;
+      font-size: 14px;
+    }
+  }
+  .disabled-btn {
+    width: 430px;
+    height: 60px;
+    color: #fefefe;
+    font-size: 19px;
+    border-radius: 4px;
+    cursor: not-allowed;
+    background: rgba(#465fa7, 0.6);
+
+    @media (max-width: 1100px) {
+      width: 280px;
+      height: 40px;
+    }
+  }
+
+  .input-error {
+    border-color: red;
+  }
+}

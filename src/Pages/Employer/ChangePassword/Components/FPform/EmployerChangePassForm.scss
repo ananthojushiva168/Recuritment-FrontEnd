@@ -1,0 +1,137 @@
+.submitPassword {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-direction: column;
+
+  h1 {
+    font-size: 30px;
+
+    @media (max-width: 1400px) {
+      font-size: 20px;
+    }
+  }
+
+  input {
+    height: 60px;
+    width: 430px;
+    border: 2px solid #465fa7;
+    outline: none;
+
+    @media (max-width: 1400px) {
+      height: 40px;
+      width: 300px;
+    }
+
+    @media (max-width: 900px) {
+      height: 30px;
+      width: 200px;
+    }
+  }
+
+  span {
+    color: red;
+    font-size: 12px;
+    margin-top: -10px;
+  }
+
+  button {
+    height: 60px;
+    width: 430px;
+    cursor: pointer;
+    background-color: #465fa7;
+    color: white;
+    font-size: 20px;
+
+    @media (max-width: 1400px) {
+      height: 40px;
+      width: 300px;
+      font-size: 16px;
+    }
+
+    @media (max-width: 900px) {
+      height: 30px;
+      width: 200px;
+      font-size: 14px;
+    }
+  }
+
+  p {
+    font-size: 14px;
+    color: red;
+    margin-top: -10px;
+  }
+}
+
+@media (max-width: 1400px) {
+  input::placeholder {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 900px) {
+  input::placeholder {
+    font-size: 14px;
+  }
+}
+
+.submitEmail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-direction: column;
+
+  h1 {
+    font-size: 30px;
+
+    @media (max-width: 1400px) {
+      font-size: 20px;
+    }
+  }
+
+  input {
+    height: 60px;
+    width: 430px;
+    border: 2px solid #465fa7;
+    outline: none;
+
+    @media (max-width: 1400px) {
+      height: 40px;
+      width: 300px;
+    }
+
+    @media (max-width: 900px) {
+      height: 30px;
+      width: 200px;
+    }
+  }
+
+  button {
+    height: 60px;
+    width: 430px;
+    cursor: pointer;
+    background-color: #465fa7;
+    color: white;
+    font-size: 20px;
+
+    @media (max-width: 1400px) {
+      height: 40px;
+      width: 300px;
+      font-size: 16px;
+    }
+
+    @media (max-width: 900px) {
+      height: 30px;
+      width: 200px;
+      font-size: 14px;
+    }
+  }
+
+  p {
+    font-size: 14px;
+    color: red;
+    margin-top: -10px;
+  }
+}

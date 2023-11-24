@@ -1,0 +1,72 @@
+.Otp-Section {
+  background-color: rgba(#16378d, 0.23);
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  .OtpPopup {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    // gap: 2vh;
+    padding: 4%;
+    width: 46rem;
+    height: 36rem;
+    background: #ffffff;
+    box-shadow: 0px 6px 20px #0000000f;
+    border-radius: 10px;
+    // opacity: 1;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    .otp-head-text{
+      display: flex;
+      align-items: center;
+      gap: 2vh;
+      flex-direction: column;
+    }
+    .submitButton {
+      width:430px;
+      height: 60px;
+      background-color: #16378d;
+      border: 2px solid #2c4a98;
+      border-radius: 5px;
+      text-align: center;
+      color: #ffffff;
+      font-size: 20px;
+      cursor: pointer;
+    }
+    .submitButton:hover {
+      background-color: #2c4a98;
+      transition: 0.1s;
+      color: #fafafa;
+      border: white;
+    }
+    .resend-textField {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      form{
+        input {
+          height: 60px;
+          width: 430px;
+          border: 2px solid #465fa7;
+          outline: none;
+        }
+      }
+     
+      .resendText-button {
+        border: none;
+        outline: none;
+        background-color: transparent;
+        cursor: pointer;
+        margin-top: 10px;
+        color: #2c4a98;
+      }
+    }
+  }
+}

@@ -1,0 +1,145 @@
+ @import url('https://fonts.googleapis.com/css2?family=Anton&family=Orelega+One&family=Oswald:wght@300;400;500;600&display=swap');
+
+
+ .admincontainer_app {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   gap: 20px;
+ }
+
+ .Allemployer {
+   width: 1613px;
+   height: 100vh;
+   padding: 30px 0px;
+   // background-color: #1863f9;
+
+
+ }
+
+
+
+ .employer-background {
+   width: 100%;
+   height: 95vh;
+   // background-color: #cabb12;
+   //  border: 3px solid #EDEFF2;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+ }
+
+ .employeename {
+   background-color: #ffffff;
+   box-shadow: 1px 1px 1px rgb(204, 204, 204);
+   margin: 15px 20px;
+ }
+
+ .allemployers {
+   h1 {
+     text-align: left;
+     font: normal normal 600 20px Poppins;
+     letter-spacing: 0px;
+     color: #021867;
+     opacity: 1;
+     padding: 21px 17px;
+
+   }
+ }
+
+ /// search bar 
+ .searchbar {
+   width: 1613px;
+   height: 90px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 10px;
+   border-bottom: 3px solid #edeff2;
+ }
+
+ .search-logo {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   border: 2px solid #edeff2;
+ }
+
+ .searchbar .focus {
+   position: absolute;
+   padding-right: 15px;
+   color: #c2c2c2;
+   margin-top: 7px;
+   font-size: 22px;
+ }
+
+ .focus:hover {
+   cursor: pointer;
+ }
+
+ .searchbar {
+   input {
+     width: 260px;
+     height: 48px;
+     border: none;
+     outline: none;
+     background-color: white;
+     border: 1px solid #F2F3F5;
+     padding-left: 10px;
+
+   }
+ }
+
+ .searchbar {
+   input::placeholder {
+     text-align: left;
+     font: normal normal normal 14px Poppins;
+     letter-spacing: 0px;
+     color: #c2c2c2;
+     opacity: 1;
+     padding-left: 0px;
+
+   }
+ }
+
+ .role-company {
+   display: flex;
+
+ }
+
+ .role,
+ .company {
+   width: 200px;
+   height: 50px;
+   background-color: white;
+   text-align: left;
+   font: normal normal 600 15px Poppins;
+   letter-spacing: 0px;
+   color: #7d8fb3;
+   opacity: 1;
+   border: 2px solid#F2F3F5;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .role,
+ .company:hover {
+   cursor: pointer;
+ }
+
+ .employ {
+   margin: 0px 20px;
+ }
+
+ .tabledata {
+   width: 100%;
+   height: 76vh;
+   overflow-y: auto;
+ }
+
+
+ .happy {
+   border: 3px solid #EDEFF2;
+
+ }

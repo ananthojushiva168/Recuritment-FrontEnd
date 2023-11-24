@@ -1,0 +1,134 @@
+.profile-alignment {
+  display: flex;
+  // justify-content: space-between;
+  flex-direction: column;
+  height: 100vh;
+
+  .main-container-editprofile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .hr-sizing hr {
+    width: 100%;
+    color: rgb(197, 197, 193);
+    border: 1px solid;
+    margin: 430px 0px 100px 0px;
+  }
+
+  .changepassword-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: 5rem;
+
+    h2 {
+      font-size: 40px;
+      font-weight: 500;
+    }
+  }
+
+  .changepassword-child-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;gap: 20px;
+    margin-top: 20px;
+    flex-direction: column;
+
+  }
+
+  .button-styleing {
+    width: 216px;
+    height: 32px;
+    text-align: left;
+    font: normal normal normal 23px/34px Poppins;
+    letter-spacing: 0px;
+    color: #484848;
+    opacity: 1;
+    border: none;
+    background-color: transparent;
+    // margin-top: 40px;
+    a{
+          color: #484848;
+    }
+  }
+
+  // .button-delete {
+  //   margin-top: -25px;
+  // }
+  .top-middelform {
+    width: 68.06rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .banner-image-container img {
+    width: 100%;
+    height: 336px;
+    position: relative;
+    top: 10vh;
+  }
+
+  // .all-forms-sizing{
+  //     width: 68.06rem;
+  // }
+  @media (max-width: 1205px) {
+    .all-forms-sizing {
+      width: 60.06rem;
+    }
+
+    .hr-sizing hr {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 1085px) {
+    .all-forms-sizing {
+      width: 54.06rem;
+    }
+  }
+
+  @media (max-width: 1006px) {
+    .all-forms-sizing {
+      width: 48.06rem;
+    }
+    .changepassword-section {
+      h2 {
+        font-size: 28px;
+        font-weight: 400;
+      }
+    }
+  }
+
+  @media (max-width: 851px) {
+    .all-forms-sizing {
+      width: 44.06rem;
+    }
+    .profile-alignment .banner-image-container img {
+      width: 100%;
+      height: 240px;
+    }
+    .changepassword-section {
+      margin: -4rem 0rem 2rem 0rem;
+    }
+    .hr-sizing hr {
+      margin: 360px 0px 100px 0px;
+    }
+  }
+
+  // @media(max-width:730px) {
+  //     .changepassword-section {
+  //         display: flex;
+  //         justify-content: center;
+  //         align-items: center;
+  //     }
+
+  //     .changepassword-section {
+  //         text-align: center;
+  //     }
+  // }
+}

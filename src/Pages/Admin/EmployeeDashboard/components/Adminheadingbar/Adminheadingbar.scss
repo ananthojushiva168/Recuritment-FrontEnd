@@ -1,0 +1,17 @@
+.adminheadingbar {
+   width: 100%;
+   height: 66px;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   background: #ffffff 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+
+   h3 {
+      font: normal normal 600 24px/25px Poppins;
+      color: #001662;
+      padding-left: 25px;
+   }
+
+}

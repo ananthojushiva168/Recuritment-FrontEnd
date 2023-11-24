@@ -1,0 +1,122 @@
+.hire-alignment {
+  .hirePage-top-content {
+    .hire-cover {
+      background-image: url("../../../Assets/HirePageCover.jpg");
+      background-size: cover;
+      background-position: center;
+      .cover-head {
+        background-color: rgba($color: #f4f4f4, $alpha: 0.7);
+        height: 50vh;
+        padding: 5% 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5vh;
+
+        @media (max-width: 900px) {
+          height: 45vh;
+          padding-bottom: 0;
+        }
+
+        h1 {
+          color: #2a2a2a;
+          font-size: 42px;
+          @media (max-width: 1700px) {
+            font-size: 40px;
+          }
+          @media (max-width: 1500px) {
+            font-size: 38px;
+          }
+          @media (max-width: 1300px) {
+            font-size: 36px;
+          }
+          @media (max-width: 1200px) {
+            font-size: 34px;
+          }
+          @media (max-width: 1000px) {
+            font-size: 32px;
+          }
+          @media (max-width: 800px) {
+            font-size: 30px;
+          }
+        }
+
+        .search-area {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          input {
+            width: 400px;
+            height: 60px;
+            border: 1px solid #c7cee4;
+            outline: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding:0px 10px;
+            font-size: 18px;
+
+            @media (max-width: 1150px) {
+              width: 250px;
+              height: 40px;
+            }
+          }
+          :nth-child(1) {
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            // background-color: #465fa7;
+          }
+          ::placeholder {
+            padding-left: 20px;
+            font-size: 20px;
+            color: #2a2a2a;
+            @media (max-width: 1150px) {
+              padding-left: 10px;
+              font-size: 14px;
+            }
+          }
+          button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 2%;
+            background-color: #465fa7;
+            height: 60px;
+            width: 100px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            cursor: pointer;
+            @media (max-width: 1150px) {
+              height: 40px;
+              width: 60px;
+              img {
+                width: 50%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .hirePage-bottom-content {
+    display: flex;
+    .hirepage-data-profileCards {
+      width: 80vw;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: flex-start;
+      flex-direction: column;
+      padding: 2%;
+
+      @media (max-width: 1600px) {
+        width: 75vw;
+      }
+      @media (max-width: 1000px) {
+        width: 70vw;
+        justify-content: center;
+        // gap: 10vh;
+      }
+    }
+  }
+}

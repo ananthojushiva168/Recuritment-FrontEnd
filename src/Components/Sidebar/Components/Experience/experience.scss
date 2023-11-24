@@ -1,0 +1,29 @@
+.experience {
+  h4{
+    font-size: 16px;
+    @media(max-width: 1700px){
+        font-size: 15px;
+    }
+
+    @media(max-width: 1300px){
+        font-size: 13px;
+    }
+   
+  }
+  span {
+    font-weight: 300;
+  }
+  .boxxx {
+    margin-top: 5vh;
+  }
+  .MuiSlider-valueLabelOpen {
+    .MuiSlider-valueLabel {
+      .css-nnid7-MuiSlider-valueLabel {
+          background-color: none !important;
+        color: black !important;
+      }
+    }
+  }
+}
+
+

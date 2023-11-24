@@ -1,0 +1,452 @@
+.none {
+  display: none;
+}
+
+nav,
+.mobilenav {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+  height: 10vh;
+  width: 100%;
+  position: fixed;
+  z-index: 99999999;
+  box-shadow: 0px 0px 10px #0000004f;
+  transition: 1s;
+  @media(max-width:980px){
+    
+  }
+
+  // position: relative;
+
+  .partone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+
+    .logo {
+      a {
+        h1 {
+          // font-size: 35px;
+          color: #16378d;
+          margin: 0;padding: 0;
+        }
+      }
+    }
+
+    .menu {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+      a {
+        color: #183791cc;
+      }
+
+      a:hover {
+        font-weight: bold;
+      }
+      
+      @media (max-width: 1400px) {
+        gap: 40px;
+      }
+
+      @media (max-width: 1200px) {
+        gap: 30px;
+      }
+
+      @media (max-width: 1024px) {
+        a {
+          font-size: 15px;
+        }
+      }
+     
+    }
+    @media (max-width: 1500px) {
+      gap: 60px;
+    }
+    @media (max-width: 1400px) {
+      gap: 40px;
+    }
+    @media (max-width: 1200px) {
+      gap: 20px;
+    }
+    @media (max-width: 1100px) {
+      gap: 15px;
+    }
+  }
+
+  @media (max-width: 980px) {
+    .menu {
+      flex-direction: column;
+      gap: 50px;
+      display: none !important;
+    }
+
+
+    .logo {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+    }
+
+    .active {
+      display: flex !important;
+    }
+
+    li {
+      color: white !important;
+    }
+    
+    
+  }
+ 
+  
+  // =====================================================================
+
+  .parttwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    .login {
+      padding: 13px 32px;
+      color:#FFFFFF;
+      border-radius: 5px;
+      background-color: #15358F;
+      border: 1px solid #1a3691;
+      @media(max-width: 1500px){
+        padding: 11px 30px;
+      }
+      @media(max-width: 1300px){
+        padding: 10px 28px;
+      }
+      @media(max-width: 1100px){
+        padding: 9px 26px;
+      }
+      @media(max-width: 1000px){
+        padding: 8px 24px;
+      }
+      @media(max-width: 900px){
+        padding: 13px 46px;
+      }
+    }
+
+    .login:hover {
+      cursor: pointer;
+      background-color: #15358f;
+      color: white;
+    }
+
+    .register {
+      cursor: pointer;
+      padding: 13px 32px;
+      color: #17388b;
+      border-radius: 5px;
+      font-weight: 800;
+      border: 1px solid #1a3691;
+      @media(max-width: 1500px){
+        padding: 12px 30px;
+      }
+      @media(max-width: 1300px){
+        padding: 11px 28px;
+      }
+      @media(max-width: 1100px){
+        padding: 10px 26px;
+      }
+      @media(max-width: 1000px){
+        padding: 9px 24px;
+      }
+      @media(max-width: 900px){
+        padding: 12px 22px;
+      }
+    }
+
+    .register:hover {
+      background-color: #15358f;
+      color: white;
+    }
+
+    .disapear {
+      display: none;
+    }
+
+    .appear {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      // top: 100%;
+      gap: 3px;
+      margin-top: 10px;
+
+
+      button {
+        cursor: pointer;
+        padding: 3px 8px;
+        color: #17388b;
+        border-radius: 5px;
+        border: 1px solid #1a3691;
+      }
+
+      button:hover {
+        cursor: pointer;
+        background-color: #15358f;
+        color: white;
+      }
+    }
+
+    .adjust {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 80px;
+      @media (max-width: 1200px) {
+        gap: 20px;
+      }
+
+      .input {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px;
+        width: 350px;
+        height: 55px;
+        border: 1px solid #465fa7;
+        border-radius: 10px;
+
+        @media (max-width: 1500px) {
+          width: 400px;
+        }
+
+        @media (max-width: 1300px) {
+          width: 350px;
+        }
+
+        @media (max-width: 1100px) {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 0px;
+          width: 180px;
+        }
+
+        input {
+          font-size: 20px;
+          border: none;
+          outline: none;
+          @media (max-width: 1100px) {
+            font-size: 12px;
+          }
+        }
+      }
+
+      .last {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+
+        .label {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 20px;
+
+          img {
+            width: 45px;
+          }
+
+          p {
+            color: #18388f;
+            font-size: 20px;
+           
+          }
+
+          @media (max-width: 1100px) {
+            gap: 10px;
+          }
+        }
+
+        .logout {
+          button {
+            height: 50px;
+            width: 132px;
+            font-size: 18px;
+            color: #17388f;
+            border: 1px solid #15358f;
+            border-radius: 5px;
+
+            @media (max-width: 1100px) {
+              height: 50px;
+              width: 100px;
+            }
+            @media (max-width: 1445px) {
+              height: 50px;
+              width: 120px;
+             
+            }
+          }
+
+          button:hover {
+            cursor: pointer;
+            background-color: #17388f;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 980px) {
+
+    .position {
+      display: none !important;
+    }
+
+    .active {
+      display: flex !important;
+    }
+  }
+
+  .hamburger {
+    display: none;
+    @media (max-width: 980px) {
+
+      display: block;
+      // position: fixed;
+      // top: 30px;
+      right: 40px;
+    }
+  }
+}
+@media (max-width: 980px) {
+
+  .mobilenav {
+    height: 120vh !important;
+    display: flex;
+    overflow: hidden;
+    // background-color: #15358f;
+    // color: aliceblue;
+    justify-content: center !important;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .adjust {
+    flex-direction: column;
+  }
+}
+@media (max-width: 980px) {
+
+  .partone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+
+    .menu {
+     
+      gap: 30px;
+    }
+  }
+  .parttwo {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+  }
+}
+@media (max-width: 1024px) {
+  nav,
+  .mobilenav {
+    .partone {
+      gap: 30px;
+      a {
+        font-size: 20px;
+      }
+      .menu {
+        gap: 25px;
+      }
+    }
+   
+  }
+}
+.button-box{
+  width: 150px;
+  height: 120px;
+  background-color: #15358f;
+  border: 1px solid  #fff;
+  border-radius: 10%;
+  display: flex;justify-content:space-evenly;align-items: center;flex-direction: column;
+  @media(max-width: 1300px){
+    width: 130px;
+    height: 110px;
+   }
+   @media(max-width: 1100px){
+    width: 105px;
+    height: 100px;
+   }
+  .loginemployee{
+      color:  #fff;
+      @media(max-width: 1500px){
+        font-size: 14px;
+       }
+       @media(max-width: 1300px){
+         font-size: 13px;
+       }
+  }
+  .loginemployer{
+    color:  #fff;
+    @media(max-width: 1500px){
+      font-size: 14px;
+     }
+     @media(max-width: 1300px){
+       font-size: 13px;
+     }
+  }
+
+}
+.registerbutton-box{
+  width: 150px;
+  height: 120px;
+  background-color: #fff;
+  border: 1px solid #15358f;
+  border-radius: 10%;
+  display: flex;justify-content:space-evenly;align-items: center;flex-direction: column;
+  @media(max-width: 1200px){
+    width: 140px;
+    height: 95px;
+   }
+   @media(max-width: 1100px){
+    width: 135px;
+    height: 90px;
+   }
+  .registeremployee{
+    color:  #15358f;
+    font-weight: 600;
+    @media(max-width: 1500px){
+     font-size: 14px;
+    }
+    @media(max-width: 1300px){
+      font-size: 13px;
+    }
+   
+  
+  }
+  .registeremployer{
+    color:  #15358f;
+    font-weight: 600;
+    @media(max-width: 1500px){
+      font-size: 14px;
+     }
+     @media(max-width: 1300px){
+       font-size: 13px;
+     }
+ 
+     
+     
+  }
+}

@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.job {
+  display: flex;
+  justify-content: center;
+
+  .job1 {
+    // margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 35px;
+    .para {
+      display: flex;
+      justify-content: flex-start;
+      p {
+        font-size: 32px;
+        color: #2a2a2a;
+        
+      }
+    }
+    .boxes {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+      .box1 {
+        padding: 15px;
+        width: 393px;
+        border: 1px solid #cdcdcd;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        .img {
+          width: 80px;
+          img {
+            width: 100%;
+          }
+        
+        }
+        p {
+          font-size: 26px;
+        
+        }
+      }
+    }
+  }
+}

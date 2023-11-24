@@ -1,0 +1,136 @@
+.Jobcard-container {
+  width: 100%;
+  .swiper-button-next,
+  .swiper-button-prev {
+    width: 35px !important;
+    height: 35px !important;
+    // background-color: #225649;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 200px !important;
+    color: #ffffff !important;
+    padding: 1%;
+
+    @media (max-width: 1200px) {
+      top: 165px !important;
+    }
+    @media (max-width: 1000px) {
+      top: 145px !important;
+    }
+    @media (max-width: 900px) {
+      top: 150px !important;
+    }
+    @media (max-width: 768px) {
+      top: 100px !important;
+    }
+  }
+  .swiper-button-next {
+    right: 46% !important;
+    @media (max-width: 1700px) {
+      right: 45% !important;
+    }
+    @media (max-width: 1300px) {
+      right: 41% !important;
+    }
+
+    @media (max-width: 900px) {
+      right: 39% !important;
+    }
+    @media (max-width: 768px) {
+      right: 9% !important;
+    }
+
+  }
+  .swiper-button-prev {
+    left: 46% !important;
+    @media (max-width: 1700px) {
+      left: 45% !important;
+    }
+    @media (max-width: 1300px) {
+      left: 41% !important;
+    }
+ 
+    @media (max-width: 900px) {
+      left: 39% !important;
+    }
+    @media (max-width: 768px) {
+      left: 9% !important;
+    }
+  }
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    font-size: 15px !important;
+    color: #2a2a2a;
+  }
+}
+
+.swiper-wrapper {
+  padding-bottom: 10%;
+}
+
+.cardd-container {
+  .cardd-box {
+    // border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    justify-content: center;
+    // @media(max-width:900px){
+    //   justify-content: center;
+    // }
+    .cardd-data {
+      margin-top: 3vh;
+      display: flex;
+      align-items: center;
+      // gap: 20px;
+      border: 1px solid #cdcdcd;
+      justify-content: space-around;
+      width: 22vw;
+      padding: 5%;
+      border-radius: 10px;
+
+      @media (max-width: 1300px) {
+        width: 30vw;
+      }
+      @media (max-width: 900px) {
+        width: 40vw;
+      }
+
+      img {
+        width: 60px;
+        @media (max-width: 1300px) {
+          width: 50px;
+        }
+        @media (max-width: 1100px) {
+          width: 40px;
+        }
+      }
+      p {
+        font-size: 24px;
+        color: #2a2a2a;
+        @media (max-width: 1600px) {
+          font-size: 22px;
+        }
+        @media (max-width: 1400px) {
+          font-size: 20px;
+        }
+        @media (max-width: 1100px) {
+          font-size: 18px;
+        }
+      }
+
+      // @media(max-width:900px){
+      //   width: 40vw;
+      //   // margin: 0 auto;
+      // }
+      // img{
+      //   width: 60px;
+      // }
+      // p{
+      //   font-size: 12px;
+      //   color: #2A2A2A;
+      // }
+    }
+  }
+}
